@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            
+            <div class="list-group">
+                    <h2>مطالب آموزشی</h2>
+    
+                        {% for link in site.osm-links %}
+                        <a class="list-group-item" href="{{link.url}}"><p style="color: blue">{{link.title}}</p></a>
+    
+                        {% endfor %}
+    
+            </div>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>

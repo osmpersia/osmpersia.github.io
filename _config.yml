@@ -1,0 +1,596 @@
+# Site Settings
+title: تگ های پرکاربرد osm ایران
+email: gshs99@gmail.com
+description: تگ های پرکاربرد osm ایران
+#baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
+url: "http://osmpersia.github.io" # the base hostname & protocol for your site
+google_analytics: 
+
+# User Settings
+username: freetux
+user_description: حمید صیدی ،دوستدار گنو/لینوکس و نرم افزار آزاد.
+disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: herotux
+# facebook_username: facebook_username
+twitter_username: sahand240
+instagram_username: freetux
+# linkedin_username: linkedin_username
+# medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: گروه تلگرام
+    url: https://t.me/joinchat/FGmZpD3PaK_cI19r-OUu9w
+  - title: کانال تلگرام
+    url: https://t.me/openstreetmapir
+
+
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+
+osmtags:
+  - title: تلفن اضطراری
+    key: emergency
+    value: phone
+  - title: فلکه
+    key: junction
+    value: roundabout
+  - title: فلکه کوچک
+    key: highway
+    value: mini_roundabout
+  - title: ایستگاه اتوبوس
+    key: highway
+    value: bus_stop
+  - title: آسانسور
+    key: highway
+    value: elevator
+  - title: استراحتگاه کنار جاده
+    key: highway
+    value: rest_area
+  - title: خدمات بین راهی
+    key: highway
+    value: services
+  - title: چراغ راهنمایی رانندگی
+    key: highway
+    value: traffic_signals
+  - title: منطقه باستانی
+    key: historic
+    value: archaeological_site
+  - title: یادبود
+    key: historic
+    value: memorial
+  - title: قبرستان بدون مسجد یا امام زاده
+    key: landuse
+    value: cemetery
+  - title: قبرستان با مسجد یا امام زاده
+    key: amenity
+    value: grave_yard
+  - title: مزرعه
+    key: landuse
+    value: farmland
+  - title: جنگل
+    key: landuse
+    value: forest
+  - title: چمن
+    key: landuse
+    value: grass
+  - title: زمین گلخانه
+    key: landuse
+    value: greenhouse_horticulture
+  - title: محل دفع زباله یا نخاله
+    key: landuse
+    value: landfill
+  - title: محدوده کاشت درخت برای مصارف غذایی:باغ میوه،نخلستان و ...
+    key: landuse
+    value: orchard
+  - title: معدن
+    key: landuse
+    value: quarry
+  - title: تاکستان
+    key: landuse
+    value: vineyard
+  - title: باغ گل یا گیاهان زینتی
+    key: leisure
+    value: garden
+  - title: زمین گلف
+    key: leisure
+    value: golf_course
+  - title: لنگرگاه یا حوضچه مخصوص توقف قایق هاى تفریحى
+    key: marina
+    value: golf_course
+  - title: زمین بازی برای بچه ها 
+    key: leisure
+    value: playground
+  - title: پارک آبی
+    key: leisure
+    value: water_park
+  - title: تک درخت
+    key: natural
+    value: tree
+  - title: یک لاین از درختها
+    key: natural
+    value: tree_row
+  - title: دریاچه،تالاب و …
+    key: natural
+    value: water
+  - title: چشمه
+    key: natural
+    value: spring
+  - title: چشمه آب گرم …
+    key: natural
+    value: hot_spring
+  - title: آبفشان
+    key: natural
+    value: geyser
+  - title: فواره
+    key: natural
+    value: fountain
+  - title: تئاتر
+    key: amenity
+    value: theatre
+  - title: نقطه بالایی کوه یا تپه(قله)
+    key: natural
+    value: peak
+  - title: آتشفشان
+    key: natural
+    value: volcano
+  - title: صخره بصورت عمودی
+    key: natural
+    value: cliff
+  - title: ورودی غار
+    key: natural
+    value: cave_entrance
+  - title: دفتر مهندسی
+    key: office
+    value: engineer
+  - title: موسسه آموزشی
+    key: office
+    value: educational_institution
+  - title: دفتر شرکت خصوصی
+    key: office
+    value: company
+  - title: موسسه خیریه
+    key: office
+    value: charity
+  - title: دفتر معماری
+    key: office
+    value: architect
+  - title: دفاتر تبلیغاتی
+    key: office
+    value: advertising_agency
+  - title: دفتر حسابدار
+    key: office
+    value: accountant
+  - title: دفاتر کاریابی
+    key: office
+    value: employment_agency
+  - title: مشاور املاک
+    key: office
+    value: estate_agent
+  - title: دفتر جنگلداری
+    key: office
+    value: forestry
+  - title: دفاتر دولتی
+    key: office
+    value: government
+  - title: دفاتر راهنما گردشگری و … 
+    key: office
+    value: guide
+  - title: دفاتر بیمه
+    key: office
+    value: insurance
+  - title: دفاتر it
+    key: office
+    value: it
+  - title: دفاتر وکالت
+    key: office
+    value: lawyer
+  - title: دفاتر باربری و حمل ونقل
+    key: office
+    value: logistics
+  - title: دفاتر روزنامه
+    key: office
+    value: newspaper
+  - title: دفاتر ان جی او
+    key: office
+    value: ngo
+  - title: سردفتر اسناد رسمى
+    key: office
+    value: notary
+  - title: دفاتر آموزش ایمنی
+    key: office
+    value: occupational_safety
+  - title: دفاتر احزاب سیاسی
+    key: office
+    value: political_party
+  - title: دفاتر مذهبی(دفاتر مراجع تقلید)
+    key: office
+    value: religion
+  - title: دفاتر پژوهشی
+    key: office
+    value: research
+  - title: دفاتر مالیاتی
+    key: office
+    value: tax
+  - title: دفتر مشاور مالیاتی
+    key: office
+    value: tax_advisor
+  - title: دفاتر مخابراتی
+    key: office
+    value: telecommunication
+  - title: ورودی ایستگاه مترو
+    key: railway
+    value: subway_entrance
+  - title: تقاطع جاده و راه آهن
+    key: railway
+    value: level_crossing
+  - title: مسیر حرکت قایق
+    key: route
+    value: ferry
+  - title: دکان نانوایى یا شیرینى پزى
+    key: shop
+    value: bakery
+  - title: فروشگاه انواع نوشیدنی
+    key: shop
+    value: beverages
+  - title: قصابی
+    key: shop
+    value: butcher
+  - title: قنادى
+    key: shop
+    value: confectionery
+  - title: بقالی
+    key: shop
+    value: convenience
+  - title: تره بار فروشی
+    key: shop
+    value: greengrocer
+  - title: فروش ماهی و اغذیه دریایی
+    key: shop
+    value: seafood
+  - title: پاساژ،مرکز تجاری و ..
+    key: shop
+    value: department_store
+  - title: دکه روزنامه فروشی
+    key: shop
+    value: kiosk
+  - title: فروشگاه  بزرگ یک طبقه
+    key: shop
+    value: supermarket
+  - title: فروشگاه کیف و چمدان
+    key: shop
+    value: bag
+  - title: لباس فروشی
+    key: shop
+    value: clothes
+  - title: فروشگاه مد
+    key: shop
+    value: fashion
+  - title: جواهر فروشى
+    key: shop
+    value: jewelry
+  - title: جواهر سازی و فروشی
+    key: shop
+    value: jeweller
+  - title: کفش فروشی
+    key: shop
+    value: shoes
+  - title: حاجی ارزونی
+    key: shop
+    value: variety_store
+  - title: سلمانی
+    key: shop
+    value: hairdresser
+  - title: عینک فروشی،عینک سازی 
+    key: shop
+    value: optician
+  - title: عطر فروشی
+    key: shop
+    value: perfumery
+  - title: گلفروشی
+    key: shop
+    value: florist
+  - title: ابزار فروشی،لوازم ساختمان فروشی
+    key: shop
+    value: hardware
+  - title: مبلمان فروشی
+    key: shop
+    value: furniture
+  - title: فروشگاه کامپیوتر ، لوازم کامپیوتر ، نرم افزار فروشی
+    key: shop
+    value: computer
+  - title: فروشگاه لوازم برقی(تلویزیون،رادیو،یخچال)
+    key: shop
+    value: electronics
+  - title: فروشگاه لوازم صوتی
+    key: shop
+    value: hifi
+  - title: فروشگاه تلفن همراه و لوازم جانبی آن
+    key: shop
+    value: mobile_phone
+  - title: دوچرخه فروشی
+    key: shop
+    value: bicycle
+  - title: فروش اتومبیل،نمایشگاه ماشین
+    key: shop
+    value: car
+  - title: مکانیکی
+    key: shop
+    value: car_repair
+  - title: لوازم اتومبیل
+    key: shop
+    value: car_parts
+  - title: فروش موتورسیکلت
+    key: shop
+    value: motorcycle
+  - title: فروشگاه لوازم کوهنوردی و مسافرت
+    key: shop
+    value: outdoor
+  - title: عکاسی
+    key: shop
+    value: photo
+  - title: آتلیه عکاسی
+    key: shop
+    value: photographer
+  - title: فروشگاه کادویی، کارت عروسی، سوغاتی
+    key: shop
+    value: gift
+  - title: روزنامه و مجله فروشی
+    key: shop
+    value: newsagent
+  - title: فروشگاه لوازم تحریر
+    key: shop
+    value: stationery
+  - title: مغازه خدمات کپی و چاپ
+    key: shop
+    value: copyshop
+  - title: رختشوى خانه (شستن تنها)
+    key: shop
+    value: laundry
+  - title: خشکشویی(خشک کردن تنها)
+    key: shop
+    value: dry_cleaning
+  - title: فروشگاه حیوان اهلى منزل
+    key: shop
+    value: pet
+  - title: فروشگاه اسباب بازی
+    key: shop
+    value: toys
+  - title: آژانس مسافرتی
+    key: shop
+    value: travel_agency
+  - title: پناه گاه در کوهستان
+    key: tourism
+    value: alpine_hut
+  - title: محل اردو و چادر زدن
+    key: tourism
+    value: camp_site
+  - title: هتل
+    key: tourism
+    value: hotel
+  - title: هتل کوچک و ارزان
+    key: tourism
+    value: hostel
+  - title: محل ارائه اطلاعات توریستی
+    key: tourism
+    value: information
+  - title: متل(جایی که ماشین دم در اتاق میتونی پارک کنی)
+    key: tourism
+    value: motel
+  - title: موزه
+    key: tourism
+    value: museum
+  - title: محل پیک نیک
+    key: tourism
+    value: picnic_site
+  - title: محل دید(معمولا جای مرتفع)
+    key: tourism
+    value: viewpoint
+  - title: محل فرود هلیکوپتر
+    key: aeroway
+    value: helipad
+  - title: منطقه فرودگاهی مخصوص هلیکوپتر
+    key: aeroway
+    value: heliport
+  - title: فرودگاه
+    key: aeroway
+    value: aerodrome
+  - title: تله کابین
+    key: aerialway
+    value: gondola
+  - title: کافی شاپ
+    key: amenity
+    value: cafe
+  - title: آبخوری،آبسردکن و.. 
+    key: amenity
+    value: drinking_water
+  - title: فست فود
+    key: amenity
+    value: fast_food
+  - title: مجموعه ای از فست فودها
+    key: amenity
+    value: food_court
+  - title: بستنی فروشی
+    key: amenity
+    value: ice_cream
+  - title: رستوران
+    key: amenity
+    value: restaurant
+  - title: کتابخانه
+    key: amenity
+    value: library
+  - title: پارکینگ دوچرخه
+    key: amenity
+    value: bicycle_parking
+  - title: محل کرایه کردن دوچرخه
+    key: amenity
+    value: bicycle_rental
+  - title: پایانه اتوبوس
+    key: amenity
+    value: bus_station
+  - title: کارواش
+    key: amenity
+    value: car_wash
+  - title: پمپ بنزین،گاز و … 
+    key: amenity
+    value: fuel
+  - title: پارکینگ موتورسیکلت
+    key: amenity
+    value: motorcycle_parking
+  - title: پارکینگ
+    key: amenity
+    value: parking
+  - title: تاکسی،آژانس
+    key: amenity
+    value: taxi
+  - title: عابر بانک
+    key: amenity
+    value: atm
+  - title: بانک
+    key: amenity
+    value: bank
+  - title: دندانپزشکی
+    key: amenity
+    value: dentist
+  - title: مطب دکتر
+    key: amenity
+    value: doctors
+  - title: بیمارستان
+    key: amenity
+    value: hospital
+  - title: داروخانه
+    key: amenity
+    value: pharmacy
+  - title: خدمات اجتماعی(پرستاری و مراقبت،ترک اعتیاد،کار درمانی افراد معلول،بیخانمانها
+    key: amenity
+    value: social_facility
+  - title: دامپزشکی
+    key: amenity
+    value: veterinary
+  - title: سینما
+    key: amenity
+    value: cinema
+  - title: نیمکت
+    key: amenity
+    value: bench
+  - title: دادگاه،دادگستری
+    key: amenity
+    value: courthouse
+  - title: سفارت
+    key: amenity
+    value: embassy
+  - title: ایستگاه آتش نشانی
+    key: amenity
+    value: fire_station
+  - title: اداره پلیس،کلانتری،پاسگاه،ایست بازرسی
+    key: amenity
+    value: police
+  - title: صندوق پست
+    key: amenity
+    value: post_box
+  - title: اداره پست
+    key: amenity
+    value: post_office
+  - title: زندان
+    key: amenity
+    value: prison
+  - title: محل یا مرکز بازیافت
+    key: amenity
+    value: recycling
+  - title: آلاچیق
+    key: amenity
+    value: shelter
+  - title: تلفن عمومی
+    key: amenity
+    value: telephone
+  - title: توالت برای استفاده عموم
+    key: amenity
+    value: toilets
+  - title: فرمانداری،شهرداری،بخشداری
+    key: amenity
+    value: townhall
+  - title: سطل زباله کوچک
+    key: amenityسطل زباله بزرگ
+    value: waste_basket
+  - title: سطل زباله بزرگ
+    key: amenity
+    value: waste_disposal
+  - title: گیت(محل ورود)
+    key: amenity
+    value: gate
+  - title: گیت بالارونده 
+    key: amenity
+    value: lift_gate
+
+
+    
+
+
+
+
+osm-links:
+  - title: OpenStreetMap چیست؟
+    url: /introduction/
+  - title: چطور نقشه کشی رو شروع کنم؟
+    url: /beginner/
+  - title: شروع‌کار osm
+    url: /start-osm/
+  - title: داده های openstreetmap
+    url: /osm-data/
+  - title: کپی - چسباندن
+    url: /copy-past/
+  - title: JOSM- فیلم معرفی
+    url: /josm-introduction/
+  - title: JOSM- شروع کار با
+    url: /start-josm/
+  - title: JOSM- ابزارهای ویرایش با JOSM
+    url: /josm-tools/
+  - title: فرآیند ویرایش در JOSM
+    url: /more-josm/
+  - title: نقشه‌کشی انسان‌دوستانه
+    url: /humanitarian/
+  - title: اصلاح اشکالات مربوط به مسیریابی نقشه osm
+    url: /osm-distance/
+  - title: نقشه‌کشی با گوشی هوشمند، دستگاه GPS و یا کاغذ
+    url: /mobile_mapping/
+  - title: رسم نقشه از راه دور
+    url: /remote-mapping/
+  - title: استفاده از داده‌های OSM در QGIS
+    url: /osm-qgis/
+  - title: کجا راهنمایی و کمک بیشتری دریافت می‌کنم؟
+    url: /moving-forward/
+  - title: راهنمای رسم محلات در osm
+    url: /draw-neighbourhood/
+  - title: ثبت و ریلیشن بندی دوربین کنترل سرعت
+    url: /osm-speed-camera/
+  - title: تگ های پرکاربرد
+    url: /osm-tags/
+  - title: آموزش تغییر لایه ها و داده های نقشه در ویرایشگر id
+    url: /osm-layers/
+  - title: کار با فایل gpx در josm
+    url: /josm-gpx
+  - title: آپلود gpx با josm
+    url: /josm-gpx-upload/
+  - title: ریلیشن multipolygon
+    url: /multi-polygon/
+  - title: میخواهم کسی تغییرات مرا بازبینی کند
+    url: /review/
+  - title: لینک‌ها
+    url: /links/
+  - title: نقش subarea در ریلیشن boundary
+    url: /subarea/

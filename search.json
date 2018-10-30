@@ -1,0 +1,12 @@
+---
+layout: null
+---
+[
+  {% for tag in site.osmtags %}
+    {
+      "title"    : "{{ tag.title | escape }}",
+      "key" : "{{ tag.key }}",
+      "value" : "{{ tag.value }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
