@@ -1,12 +1,10 @@
 # Site settings
 title: Osm Persia
-email: your-email@domain.com
-description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
-lang: en-US
+email: thefreetux@gmail.com
+description: > راهنمای کاربری openstreetmap برای کاربران فارسی زبان.
+lang: fa-IR
 
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+url: https://osmpersia.github.io/ # the base hostname & protocol for your site
 git_address: https://github.com/osmpersia/osmpersia.github.io
 git_edit_address: https://github.com/osmpersia/osmpersia.github.io/blob/gh-pages
 
