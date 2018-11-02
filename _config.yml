@@ -1,7 +1,7 @@
 # Site settings
 title: Osm Persia
 email: thefreetux@gmail.com
-description: > راهنمای کاربری openstreetmap برای کاربران فارسی زبان.
+description: راهنمای کاربری openstreetmap برای کاربران فارسی زبان.
 lang: fa-IR
 
 url: https://osmpersia.github.io/ # the base hostname & protocol for your site
