@@ -1,6 +1,6 @@
 ---
 permalink: /docs/Beginners_Guide_1.3.1/
-title: " ویرایش داده‌های OSM"
+title: " نکات کلی افزودن راه‌ها و سایر مسیرها"
 ---
 
 
