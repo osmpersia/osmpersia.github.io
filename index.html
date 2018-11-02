@@ -2,20 +2,59 @@
 layout: default
 ---
 
-<div class="home">
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>osm persia</h1>
+        <p>راهنمای کاربری openstreetmap برای کاربران فارسی زبان 
+            این راهنما از ویکی osm و آموزش های گروهی از کاربران ایرانی فراهم شده است.
+        </p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "docs/home/" | prepend: site.baseurl }}" role="button">مستندات</a></p>
+    </div>
+</div>
 
-  <h1 class="page-heading">مطالب</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="container">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">openstreetmap چیست؟</h2>
+              <p class="lead"> نقشه آزاد و قابل ویرایش تمام دنیاست که از ابتدا توسط داوطلبین ساخته شده و با مجوز محتوای آزاد منتشر می‌شود.
+
+                مجوز OpenStreetMap اجازه دسترسی آزاد (یا تقریباً آزاد) به تصاویر نقشه و هرگونه داده زیربنایی آن را می‌دهد. هدف پروژه ارتقاء استفاده‌های تازه و جذاب از این داده‌هاست. برای جزئیات بیشتر در مورد اینکه چرا ما یک نقشه با محتوای آزاد می‌خواهیم را در "چرا OpenStreetMap؟ " بخوانید و پاسخ این سوال که اغلب می‌شنویم: چرا از نقشه‌های گوگل استفاده نکنیم؟ را بفهمید. </p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="img/osm.png" alt="" class="img-responsive">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">مرحله ۳</h3>
+            <p>از اینجا میتوانید بیشتر بیاموزید
+                مرحله به محله همراه شما خواهیم بود ...
+            </p>
+            <br/>
+            <p class="text-center"><a href="/docs/introduction/" type="button" class="btn btn-success">مستندات</a></p> 
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-user" aria-hidden="true"></i></h1>
+            <h3 class="text-center">مرحله ۲</h3>
+            <p>قبل از اینکه هرگونه مشارکتی در OpenStreetMap داشته باشید باید در آن ثبت نام کنید.</p>
+            <br/>
+            <p class="text-center"><a href="https://www.openstreetmap.org/user/new" type="button" class="btn btn-success">ثبت نام</a> </p>  
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-info" aria-hidden="true"></i></h1>
+            <h3 class="text-center">مرحله ۱</h3>
+            
+            <p>ابتدا مقدمه ای در خصوص نقشه openstreetmap بخوانید</p>
+        <br/>
+            <p class="text-center"><a href="/docs/introduction/" type="button" class="btn btn-success">مقدمه</a></p>
+        </div>
+    </div>
+
 
 </div>

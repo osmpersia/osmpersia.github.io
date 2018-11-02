@@ -1,0 +1,48 @@
+- title: راهنمای مبتدیان
+  docs:
+  - home
+  - introduction
+  - Join_the_community
+  - Beginners_Guide_1.1
+  - Pick_your_data_collection_technique
+  - Beginners_Guide_1.1.1
+  - Beginners_Guide_1.2.1
+  - Beginners_Guide_1.2.2
+  - Beginners_Guide_1.1.2
+  - Beginners_Guide_1.3.3.0
+  - Beginners_Guide_1.3
+  - Beginners_Guide_1.3.1
+  - Beginners_Guide_1.4.1
+  - Beginners_Guide_1.4.2
+  - start-osm 
+
+
+- title: josm
+  docs:
+  - josm-introduction  
+  - start-josm
+  - more-josm
+  - josm-tools
+
+
+- title: بیشتر
+  docs:
+  - subarea
+  - links
+  - review
+  - multi-polygon
+  - josm-gpx-upload
+  - josm-gpx
+  - osm-layers
+  - building-relation
+  - osm-speed-camera
+  - draw-neighbourhood
+  - moving-forward
+  - osm-qgis
+  - remote-mapping
+  - mobile-mapping
+  - osm-distance
+  - humanitarian
+  - copy-past
+  - osm-data
+  - start-osm

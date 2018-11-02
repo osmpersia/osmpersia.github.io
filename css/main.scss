@@ -3,47 +3,91 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$on-palm:          600px;
-$on-laptop:        800px;
+// Import partials from `sass_dir` (defaults to `_sass`)
 
 
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+@import
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/variables",
+  {% endif %}
+
+  "bootstrap",
+
+  {% if site.bootwatch %}
+    "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
+  {% endif %}
+
+  "syntax-highlighting",
+  "typeahead"
+;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: $navbar-height + $navbar-margin-bottom;
+  margin-bottom: 46px;
+  direction: rtl
+}
+
+.navbar-brand{
+  img{
+    margin: -$navbar-padding-vertical 0;
+    height: $navbar-height;
+    padding: 10px 0;
+  }
 }
 
 
+.header-container {
+  background-color: black;
+  background: url('../img/bg.jpg') no-repeat 50% 0;
+  color: #fff;
+  direction: rtl
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+  h1 {
+    color: #fff;
+  }
+
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: center 36%;
+  margin-top: -37px;
+}
+.navbar-container {
+  font-size: 16px;
+  direction: rtl
+}
+.page-content {
+  padding-bottom: 20px;
+  direction: rtl
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 46px;
+  padding-top: 10px;
+  background-color: $gray-lighter;
+  color: $gray-dark;
+  direction: rtl
+}
+
+.post-list-container {
+  li a.active {
+    font-weight: bold;
+    direction: rtl
+  }
+}
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+.navbar-form .has-feedback .form-control-feedback{
+  top:10px
+}

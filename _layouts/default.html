@@ -1,41 +1,20 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
-
-    <div id="search-demo-container">
-      تگ مورد نظرتان را از اینجا جستجو کنید:
-      <input type="text" id="search-input" placeholder="جستجوی تگ">
-      <ul id="results-container"></ul>
-    </div>
+    {% include topnav.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <div class="wrapper">
+            {{ content }}
+        </div>
     </div>
 
     {% include footer.html %}
-
-    <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
-
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li><a href="{value}" title="{key}={value}"> {title}: {key} = {value}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
-
-  </body>
+    {% include js_files.html %}
+</body>
 
 </html>
