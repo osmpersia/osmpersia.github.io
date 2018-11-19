@@ -6,7 +6,7 @@ category: 'learnosm'
 tags:
 - osm
 - learnosm
-image: "/assets/img/osmedit.png"
+image: "/img/osmedit.png"
 ---
 
 

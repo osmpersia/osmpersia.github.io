@@ -6,7 +6,7 @@ category: 'learnosm'
 tags:
 - osm
 - learnosm
-image: "/assets/img/osmedit.png"
+image: "/img/osmedit.png"
 ---
 
 
@@ -48,7 +48,7 @@ image: "/assets/img/osmedit.png"
 
 
 
-![عکس 1](/assets/img/osc1.jpg)
-![عکس 2](/assets/img/osc2.jpg)
-![عکس 3](/assets/img/osc3.jpg)
-![عکس 4](/assets/img/osc4.jpg)
+![عکس 1](/img/osc1.jpg)
+![عکس 2](/img/osc2.jpg)
+![عکس 3](/img/osc3.jpg)
+![عکس 4](/img/osc4.jpg)

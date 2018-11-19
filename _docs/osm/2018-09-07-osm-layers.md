@@ -6,7 +6,7 @@ category: 'learnosm'
 tags:
 - osm
 - learnosm
-image: "/assets/img/osmedit.png"
+image: "/img/osmedit.png"
 ---
 
 
@@ -15,5 +15,5 @@ image: "/assets/img/osmedit.png"
 همچنین با زدن دکمه B در بخش background میتوانید بین تصاویر ماهواره ای و سایر پس زمینه های نقشه سوئیچ کنید
 
 
-![تصویر ۱](/assets/img/layers1.png)
-![تصویر ۲](/assets/img/layers2.png)
+![تصویر ۱](/img/layers1.png)
+![تصویر ۲](/img/layers2.png)

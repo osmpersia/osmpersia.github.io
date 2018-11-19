@@ -7,7 +7,7 @@ aparatid: '4VYEM'
 tags:
 - osm
 - learnosm
-image: "/assets/img/osmedit.png"
+image: "/img/osmedit.png"
 ---
 
 
