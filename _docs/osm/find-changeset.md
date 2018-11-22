@@ -1,6 +1,6 @@
 ---
 permalink: /docs/find-changeset/
-title: "شروع به کار در OpenStreetMap.org"
+title: "نحوه پیدا کردن یک چنجست و مشاهده سوابق ویرایش یک مسیر"
 description: آموزش گام به گام OpenStreetMap .
 category: 'learnosm'
 tags:
@@ -9,7 +9,6 @@ tags:
 ---
 
 
-نحوه پیدا کردن یک چنجست و مشاهده سوابق ویرایش یک مسیر
 
 نویسنده: [Navid Stinson](https://t.me/FTABoy)
 
